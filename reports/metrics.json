@@ -1,0 +1,33 @@
+{
+    "linear_regression": {
+        "MAE": 0.44145151624583623,
+        "MSE": 0.3294596988538765,
+        "RMSE": 0.5739858002197237,
+        "R2": 0.7291469923406084,
+        "Adjusted_R2": 0.7183128720342328
+    },
+    "random_forest": {
+        "MAE": 0.39204840081778974,
+        "MSE": 0.2561774317244766,
+        "RMSE": 0.5061397353740137,
+        "R2": 0.7893932759654239,
+        "Adjusted_R2": 0.7809690070040408
+    },
+    "coefficients": {
+        "gdp_per_capita": 0.43817511694501937,
+        "social_support": 0.21697038093033702,
+        "healthy_life_expectancy": 0.25634105290110926,
+        "freedom": 0.22488151748440122,
+        "generosity": 0.058501019886512094,
+        "perceptions_of_corruption": 0.12821688424304623
+    },
+    "intercept": 5.3766031989166265,
+    "features": [
+        "gdp_per_capita",
+        "social_support",
+        "healthy_life_expectancy",
+        "freedom",
+        "generosity",
+        "perceptions_of_corruption"
+    ]
+}

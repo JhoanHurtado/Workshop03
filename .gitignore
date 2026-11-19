@@ -1,0 +1,30 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Archivos de credenciales y variables de entorno
+.env
+*.pem
+*.key
+
+# Bases de datos temporales
+*.db-journal
+
+# Logs y SO
+.DS_Store
+*.log
+
+# Archivos de enunciado / guías originales
+Workshop 003.md
+Workshop 003.pdf
