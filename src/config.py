@@ -32,14 +32,14 @@ KAFKA_GROUP_ID = os.getenv("KAFKA_GROUP_ID", "jhoan-hurtado")
 
 # Definición canónica de características (features)
 FEATURE_COLS = [
-    "gdp_per_capita",
-    "social_support",
-    "healthy_life_expectancy",
     "freedom",
+    "gdp_per_capita",
     "generosity",
-    "perceptions_of_corruption"
+    "healthy_life_expectancy",
+    "perceptions_of_corruption",
+    "social_support"
 ]
 
-TARGET_COL = "happiness_score"
+TARGET_COL = "happiness_score"  # columna target del modelo ML
 
 CANONICAL_COLS = ["country", "year", TARGET_COL] + FEATURE_COLS
