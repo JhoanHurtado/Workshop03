@@ -229,3 +229,5 @@ O cargarlo directamente en **Google Colab**.
 1. **Alineación Teórica:** El modelo lineal valida que el ingreso per cápita, la esperanza de vida saludable y la libertad de elección son los factores con mayor peso para explicar el bienestar subjetivo ($R^2 \approx 73\%$).
 2. **Eficiencia en Streaming:** El acoplamiento entre un consumidor en Python y un modelo serializado con `joblib` permite latencias de inferencia de sub-milisegundos por mensaje.
 3. **Mantenibilidad:** El uso de SQLite y estructuras desacopladas en `src/` garantiza simplicidad operativa, portabilidad y reproducibilidad inmediata sin dependencias complejas de infraestructura externa.
+
+.
