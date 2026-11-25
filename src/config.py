@@ -31,15 +31,16 @@ KAFKA_TOPIC = os.getenv("KAFKA_TOPIC", "etl.records")
 KAFKA_GROUP_ID = os.getenv("KAFKA_GROUP_ID", "jhoan-hurtado")
 
 # Definición canónica de características (features)
+# Ordenado por fuerza de correlación con happiness_score
 FEATURE_COLS = [
-    "freedom",
     "gdp_per_capita",
-    "generosity",
     "healthy_life_expectancy",
+    "social_support",
+    "freedom",
     "perceptions_of_corruption",
-    "social_support"
+    "generosity"
 ]
 
-TARGET_COL = "happiness_score"  # columna target del modelo ML
+TARGET_COL = "happiness_score"  # variable objetivo principal
 
 CANONICAL_COLS = ["country", "year", TARGET_COL] + FEATURE_COLS
